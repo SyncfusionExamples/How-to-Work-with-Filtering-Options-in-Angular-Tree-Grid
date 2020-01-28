@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
     this.filterSettings = {
       ignoreAccent: true,
       hierarchyMode: 'None', //Parent, Child, Both
-      type: 'FilterBar' //Menu, Excel, CheckBox
+      type: 'Excel' //Menu, FilterBar, CheckBox
       //columns: [{ field: 'taskName', matchCase: false, operator: 'startswith', predicate: 'and', value: 'Plan' },
       //{ field: 'duration', matchCase: false, operator: 'equal', predicate: 'and', value: 5 }]
     };
