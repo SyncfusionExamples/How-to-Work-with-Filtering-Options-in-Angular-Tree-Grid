@@ -10,7 +10,7 @@ import { FilterSettingsModel } from '@syncfusion/ej2-angular-treegrid';
 export class AppComponent implements OnInit {
   public data: Object[];
   public filterSettings: FilterSettingsModel;
-  public filterTaskName: FilterSettingsModel = { type: 'FilterBar' };
+  public filterTaskName: FilterSettingsModel = { type: 'Menu' };
   public filterTaskID: FilterSettingsModel = { type: 'CheckBox' };
   ngOnInit(): void {
     this.data = sampleData;
