@@ -2,6 +2,8 @@
 
 Learn how you can perform filtering in the Syncfusion Angular Tree Grid control. In this example, I explain how to enable filtering, consider diacritic characters while filtering, and filter at initial rendering. I also explain the filter hierarchy modes, filter operators, and advanced filter types.
 
+Watch the video now: https://www.syncfusion.com/tutorial-videos/angular/treegrid?title=how-to-work-with-filtering-options-in-angular-tree-grid
+
 Documentation: https://ej2.syncfusion.com/angular/documentation/treegrid/filtering
 
 
