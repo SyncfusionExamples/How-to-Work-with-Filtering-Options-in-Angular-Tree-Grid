@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { sampleData } from './datasource';
-import { FilterSettingsModel } from '@syncfusion/ej2-angular-treegrid';
+import { FilterSettingsModel, TreeGridModule } from '@syncfusion/ej2-angular-treegrid';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  imports: [TreeGridModule]
 })
 export class AppComponent implements OnInit {
   public data: Object[];
