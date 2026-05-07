@@ -18,7 +18,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": false,
+            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -64,18 +64,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "getting-started:build"
+            "buildTarget": "getting-started:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "getting-started:build:production"
+              "buildTarget": "getting-started:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "getting-started:build"
+            "buildTarget": "getting-started:build"
           }
         },
         "test": {
@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "getting-started"
+  "defaultProject": "getting-started",
+  "cli": {
+    "analytics": "92455cd5-97d8-4d2d-94b9-ff00dc351cdb"
+  }
 }
